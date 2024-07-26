@@ -68,7 +68,7 @@ async function onDelete(slug){
 	<img src={selItem.image} alt={selItem.name} />
 	<button onClick={handleBack}>Back to Item Shop</button>
 	<button onClick= {() => deleteItem(selItem)} >Delete Item</button>
-						  </div>
+			</div>
 			) : (
 				<>
 				<ItemsList items={items} onTitleClick={handleItemClick} />
